@@ -20,7 +20,15 @@ STM32F103     PB3 PB4 PB5 PB6 PB7               PA3 PA2 PA1 PA4 PA5 PA0 PA6 PA7
 
 Pin PB8 serves as an additional column for extensions. Again, an additional button can be placed between PB8 and PA3 to start the STECCY menu.
 
-<img align="right" width=20% src="https://github.com/ukw100/STECCY-Keyboard/raw/main/images/steccy-ps2-female-connector-front.png">
+  <img
+    align="right" width=20%
+    src="https://github.com/ukw100/STECCY-Keyboard/raw/main/images/steccy-ps2-female-connector-front.png"
+    alt="PS/2 Female connector from the front"
+  >
+
+The image on the right shows the PS/2 Female connector from the front.
+
+Pins to be used on STM32F103 Bluepill board:
 
 | PS/2  | STM32F103 | Remarks                 |
 |:------|:---------:|:------------------------|
@@ -28,3 +36,5 @@ Pin PB8 serves as an additional column for extensions. Again, an additional butt
 | DATA  | PB13      | pulled up on STM32F407  |
 | GND   | GND       |                         |
 | 5V    | 5V        |                         |
+
+[Here](https://github.com/ukw100/STECCY#ps2-keyboard) you will find the documentation on [how to connect a PS/2 keyboard](https://github.com/ukw100/STECCY#ps2-keyboard) to the STECCY BlackBoard.
