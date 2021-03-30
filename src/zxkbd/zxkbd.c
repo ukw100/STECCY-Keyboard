@@ -15,7 +15,7 @@
  *  Z80         D0   D1   D2   D3   D4             A11  A10  A9   A12  A13  A8   A14  A15
  *  STM32       PB3  PB4  PB5  PB6  PB7            PA3  PA2  PA1  PA4  PA5  PA0  PA6  PA7
  *
- *  Additional button at PB8 and PA0 - Menu Key
+ *  Additional button at PB8 and PA3 - Menu Key
  *------------------------------------------------------------------------------------------------------------------------
  * MIT License
  *
